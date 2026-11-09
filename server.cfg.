@@ -1,0 +1,7 @@
+hostname DOCK RP | Classic RolePlay
+gamemode0 dock 1
+maxplayers 100
+port 7777
+language Russian
+announce 0
+query 1
