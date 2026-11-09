@@ -1,0 +1,11 @@
+
+CREATE TABLE IF NOT EXISTS accounts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT UNIQUE NOT NULL,
+    password_hash TEXT NOT NULL,
+    money INTEGER DEFAULT 5000,
+    bank INTEGER DEFAULT 0,
+    level INTEGER DEFAULT 1,
+    faction INTEGER DEFAULT 0,
+    rank INTEGER DEFAULT 0
+);
